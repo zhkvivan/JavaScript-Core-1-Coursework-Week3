@@ -12,7 +12,7 @@ var everyone = [
   "Rukmini",
   "Abdul",
   "Austine",
-  "Swathi"
+  "Swathi",
 ];
 
 var firstFive; // complete this statement
