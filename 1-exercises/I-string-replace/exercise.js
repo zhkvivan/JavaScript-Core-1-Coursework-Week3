@@ -41,6 +41,6 @@ test(
 
 test(
   "2. The result of the replace is correct",
-  story,
+  result,
   "I like cats. One night I went to the park and I saw 100000 cats. It was a brilliant night."
 );
