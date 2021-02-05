@@ -21,7 +21,7 @@
   Let's first look at an example that will teach you how to use these methods.
 */
 
-function bushChecker() {}
+function isBushSafe() {}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

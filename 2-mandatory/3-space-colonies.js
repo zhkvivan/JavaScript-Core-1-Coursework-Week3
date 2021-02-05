@@ -15,7 +15,7 @@
   
 */
 
-function colonisers() {}
+function getSettlers() {}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
