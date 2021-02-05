@@ -44,13 +44,13 @@ function test(test_name, actual, expected) {
 }
 
 test(
-  "bushChecker funtion works - case 1",
-  bushChecker(bushBerryColours1),
+  "isBushSafe funtion works - case 1",
+  isBushSafe(bushBerryColours1),
   "Toxic! Leave bush alone!"
 );
 
 test(
-  "bushChecker funtion works - case 1",
-  bushChecker(bushBerryColours2),
+  "isBushSafe funtion works - case 1",
+  isBushSafe(bushBerryColours2),
   "Bush is safe to eat from"
 );

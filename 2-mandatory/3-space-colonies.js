@@ -49,7 +49,7 @@ function test(test_name, actual, expected) {
   console.log(`${test_name}: ${status}`);
 }
 
-test("colonisers function works", colonisers(voyagers), [
+test("getSettlers function works", getSettlers(voyagers), [
   "Adam family",
   "Avery family",
   "Archer family",

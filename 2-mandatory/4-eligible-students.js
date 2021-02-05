@@ -35,7 +35,7 @@ function test(test_name, actual, expected) {
     console.log(`${test_name}: ${status}`);
 }
 
-test("eligibleStudents function works",
-  eligibleStudents(attendances),
+test("getEligibleStudents function works",
+  getEligibleStudents(attendances),
   ["Ahmed", "Clement", "Tayoa", "Nina"]
 );
