@@ -21,7 +21,9 @@
   Let's first look at an example that will teach you how to use these methods.
 */
 
-function isBushSafe() {}
+function isBushSafe(berryArray) {
+  //Write your code here
+}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
