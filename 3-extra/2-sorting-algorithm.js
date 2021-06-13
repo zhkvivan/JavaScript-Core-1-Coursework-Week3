@@ -36,35 +36,10 @@ const agesCase1 = [
 ];
 const agesCase2 = ["28", 100, 60, 55, "75", "🍕", "Elamin"];
 
-function arraysEqual(a, b) {
-  if (a === b) return true;
-  if (a == null || b == null) return false;
-  if (a.length != b.length) return false;
+test("sortAges function works - case 1", () => {
+  expect(sortAges(agesCase1)).toEqual([23, 45, 55, 66, 100]);
+});
 
-  for (let i = 0; i < a.length; ++i) {
-    if (a[i] !== b[i]) return false;
-  }
-
-  return true;
-}
-
-function test(test_name, expr) {
-  let status;
-  if (expr) {
-    status = "PASSED";
-  } else {
-    status = "FAILED";
-  }
-
-  console.log(`${test_name}: ${status}`);
-}
-
-test(
-  "sortAges function works - case 1",
-  arraysEqual(sortAges(agesCase1), [23, 45, 55, 66, 100])
-);
-
-test(
-  "sortAges function works - case 2",
-  arraysEqual(sortAges(agesCase2), [55, 60, 100])
-);
+test("sortAges function works - case 2", () => {
+  expect(sortAges(agesCase2)).toEqual([55, 60, 100]);
+});
