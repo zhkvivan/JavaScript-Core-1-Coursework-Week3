@@ -34,11 +34,13 @@ test("getSettlers function works", () => {
     "Avery family",
     "Archer family",
     "Just A. family",
+    "A Great family",
   ];
 
   expect(getSettlers(voyagers)).toEqual([
     "Adam family",
     "Avery family",
     "Archer family",
+    "A Great family",
   ]);
 });
