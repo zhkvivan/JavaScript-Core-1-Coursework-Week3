@@ -15,7 +15,12 @@
   
 */
 
-function getSettlers() {}
+function getSettlers(familyNames) {
+	return familyNames.filter(
+		(name) =>
+			name[0] === 'A' && name.slice(name.length - 6, name.length) === 'family'
+	);
+}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
